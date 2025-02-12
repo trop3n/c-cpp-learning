@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
-  int _index = 5;                             // integer stored in data (uninitialized)
+/* memory.c */
+  int _index = 5;                             // integer stored in data (initialized)
   char * str;                                 // string stored in bss (uninitialized)
   int nothing;                                // integer stored in bss (uninitialized)
 void funct1(int c){                           // bracket starts function1 block with argument (c)
